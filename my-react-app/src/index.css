@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+@font-face {
+  font-family: "HeadFont";
+  src: url("/fonts/headfont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/canela.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Canela1";
+  src: url("/fonts/canela1.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a:link {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #80ced6;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #ff007f;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
