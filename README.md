@@ -1,6 +1,11 @@
 # SARCcoord
 
 here is the gdrive link for the website : https://drive.google.com/file/d/1eh2ltHotnvI_UDasUr4eVPZi-9Uymjf-/view?usp=drive_link
+
+link for the flutter app:
+
+https://drive.google.com/file/d/1tVHqGdcm6uLRAB8Rml15t5H0e3Iz32Ex/view?usp=sharing
+
 this stores my assignment for the SARC Coordinator assignment.
 
 okay so file structure is as shown below:
