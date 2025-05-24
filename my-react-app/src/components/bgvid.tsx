@@ -16,7 +16,7 @@ const BackgroundVideo = () => (
       objectFit: "cover",
       zIndex: -1,
     }}
-    loop={false} //so that the loop plays only once
+    loop={false} //for no loop, but the vid stays in react dom, its not removed
   />
 );
 

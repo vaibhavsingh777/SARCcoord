@@ -119,7 +119,7 @@ const Footer = () => (
         padding: "1.5rem 2vw 1rem 2vw",
       }}
     >
-      {/* Logo on the left, slightly higher */}
+      {/* sarc white Logo on the left */}
       <div style={{ flex: "0 0 auto", marginTop: "0.35rem" }}>
         <img
           src={sarcLogo}
@@ -262,7 +262,7 @@ function Home() {
             font-size: 5rem;
             font-weight: bold;
             text-align: center;
-            margin-top: 5rem;
+            margin-top: 10rem;
             margin-bottom: -17rem;
             color: white;
             transition: opacity 0.8s;
@@ -280,7 +280,7 @@ function Home() {
             font-size: 5rem;
             font-weight: bold;
             text-align: center;
-            margin: 25rem 0 0.5rem 0;
+            margin: 35rem 0 0.5rem 0;
             animation: colorChange 6s linear infinite;
             animation-delay: 4s;
             transition: opacity 0.8s, color 1s ease-in-out;
@@ -314,7 +314,7 @@ function Home() {
           overflow: "hidden",
         }}
       >
-        {/* Background video always visible */}
+        {/* Background video always visible for the black end */}
         <BackgroundVideo
           style={{
             position: "absolute",
@@ -347,7 +347,7 @@ function Home() {
           }}
         />
 
-        {/* Content always above both backgrounds */}
+        {/* Content always above both backgrounds using zindex */}
         <div style={{ position: "relative", zIndex: 2 }}>
           <h1 className={`animated-heading${showHeading ? "" : " hide"}`}>
             Bridging the gap between students and alumni

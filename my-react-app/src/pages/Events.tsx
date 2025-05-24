@@ -23,6 +23,7 @@ const Footer = () => (
       backgroundColor: "#563BFF",
       color: "white",
       textAlign: "center",
+      borderTop: "2px solid #fff",
       padding: "0.5rem 0 0 0",
       position: "relative",
       bottom: 0,
@@ -52,7 +53,7 @@ const Footer = () => (
         padding: "1.5rem 2vw 1rem 2vw",
       }}
     >
-      {/* Logo on the left, slightly higher */}
+      {/* this is the Logo on the left*/}
       <div style={{ flex: "0 0 auto", marginTop: "0.35rem" }}>
         <img
           src={sarcLogo}
@@ -98,7 +99,7 @@ const Footer = () => (
 
     {/* Marquees centered and full width, below the flex row */}
     <div style={{ width: "100%", marginTop: "0.5rem" }}>
-      {/* Top Marquee */}
+      {/* the marquee on top */}
       <div
         style={{
           width: "100vw",
@@ -128,7 +129,7 @@ const Footer = () => (
           {marqueeText} &nbsp; {marqueeText}
         </Marquee>
       </div>
-      {/* Bottom Marquee */}
+      {/* below wala marquee*/}
       <div
         style={{
           width: "100vw",
@@ -179,12 +180,12 @@ function Events() {
         color: "#111",
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#000", // Black background
+        backgroundColor: "#000",
         position: "relative",
         overflow: "hidden",
       }}
     >
-      {/* Centered, semi-transparent tree image */}
+      {/* treeimage which has to be put in the center*/}
       <img
         src={treeImg}
         alt="Tree"
@@ -192,10 +193,10 @@ function Events() {
           position: "absolute",
           top: "50%",
           left: "50%",
-          width: "4000px", // Adjust as needed
+          width: "4000px",
           maxWidth: "93vw",
           height: "auto",
-          opacity: 0.9, // Subtle effect
+          opacity: 0.9,
           transform: "translate(-50%, -50%)",
           zIndex: 0,
           pointerEvents: "none",
@@ -203,7 +204,8 @@ function Events() {
         }}
       />
 
-      {/* Content (zIndex: 1) */}
+      {/* Content (zIndex: 1), zindex is very important for 
+      proper visibility of components */}
       <div
         style={{
           position: "relative",
@@ -214,7 +216,7 @@ function Events() {
         }}
       >
         <HomeNav />
-        {/* Animation and font styles for the heading */}
+        {/* Animation and font styles for the heading, using keyframes */}
         <style>
           {`
             @keyframes colorChange {
@@ -227,7 +229,7 @@ function Events() {
             }
             .events-heading {
               font-family: 'HeadFont', sans-serif;
-              font-size: 3rem;
+              font-size: 4rem;
               font-weight: bold;
               text-align: center;
               margin-bottom: 2rem;

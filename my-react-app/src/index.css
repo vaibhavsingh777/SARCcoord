@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   color: white;
 }
+/*adding custom fontfaces taken from internet*/
 @font-face {
   font-family: "HeadFont";
   src: url("/fonts/headfont.otf") format("opentype");

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/sarc.png"; // Adjust the path as needed
+import logo from "../assets/sarc.png";
 
 interface NavLinkProps {
   to: string;
@@ -47,7 +47,7 @@ const HomeNav: React.FC = () => (
   <nav
     style={{
       backgroundColor: "#563BFF",
-      border: "2px solid #fff", // Solid white border
+      border: "2px solid #fff",
       padding: "1rem 4vw",
       display: "flex",
       justifyContent: "space-between",
